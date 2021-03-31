@@ -39,6 +39,18 @@ socks-port = 6153
 #DNS设置或根据自己网络情况进行相应设置
 bypass-tun = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
 dns-server = 119.29.29.29,223.5.5.5
+#ipv6支持
+ipv6 = true
+#当遇到REJECT策略时返回错误页
+show-error-page-for-reject = false
+#TLS引擎
+tls-provider = openssl
+#internet测试url
+internet-test-url = http://baidu.com/
+#代理测试url
+proxy-test-url = http://google.com/
+#测试超时
+test-timeout = 5
 
 
 [MITM]
