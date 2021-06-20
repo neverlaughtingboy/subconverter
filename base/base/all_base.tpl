@@ -48,7 +48,7 @@ tls-provider = openssl
 #internet测试url
 internet-test-url = http://baidu.com/
 #代理测试url
-proxy-test-url = http://bing.com/
+proxy-test-url =http://www.gstatic.com/generate_204
 #测试超时
 test-timeout = 5
 
